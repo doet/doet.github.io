@@ -3,6 +3,7 @@ $(document).ready(function(){
   var dataResults = ""
   var catResults = ""
   var categories = []
+  var items
 
   function renderPage(data){
     $.each(data, function(key, items){
