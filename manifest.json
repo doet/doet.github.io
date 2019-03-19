@@ -1,8 +1,8 @@
 {
   "name": "AutoTranz",
   "short_name": "AutoTranz",
-  "theme_color": "#b60000",
-  "background_color": "#e4bfc3",
+  "theme_color": "#007592",
+  "background_color": "#ff0000",
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
