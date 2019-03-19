@@ -1,9 +1,9 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
-  // '/fallback.json',
+  '/fallback.json',
   '/css/main.css',
-  // '/js/jquery.min.js',
+  '/js/jquery.min.js',
   '/js/main.js',
   '/images/logo.png'
 ];
