@@ -12,11 +12,10 @@ var urlsToCache = [
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
-    caches.open(CACHE_NAME)
-//       .then(function(cache) {
+    caches.open(CACHE_NAME).then(function(cache) {
 //         console.log('in install cache');
 //         return cache.addAll(urlsToCache);
-      })
+    })
   );
 });
 
