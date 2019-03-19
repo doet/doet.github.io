@@ -1,11 +1,11 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
-  '/fallback.json',
+  // '/fallback.json',
   '/css/main.css',
-  '/js/jquery.min.js',
+  // '/js/jquery.min.js',
   '/js/main.js',
-  '/images/logo.png'
+  // '/images/logo.png'
 ];
 
 self.addEventListener('install', function(event) {
@@ -13,7 +13,7 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
       console.log('in install cache');
-      // return cache.addAll(urlsToCache);
+      return cache.addAll(urlsToCache)
     })
   );
 });
