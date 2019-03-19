@@ -1,8 +1,8 @@
 {
-  "name": "pwaLuarBiasa",
-  "short_name": "pwaLuarBiasa",
-  "theme_color": "#2196f3",
-  "background_color": "#f32199",
+  "name": "AutoTranz",
+  "short_name": "AutoTranz",
+  "theme_color": "#b60000",
+  "background_color": "#e4bfc3",
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
